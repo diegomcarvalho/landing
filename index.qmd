@@ -24,7 +24,7 @@ page = f'''
 <main class="card">
   <img class="avatar" src="avatar.jpg" alt="Diego Carvalho">
   <h1>Diego Carvalho, D.Sc.</h1>
-  <p class="bio">Professor and researcher<br>Universidade Federal de Ciência e Inovação do Rio de Janeiro</p>
+  <p class="bio">Professor and researcher<br><i>Universidade Federal de Ciência e Inovação do Rio de Janeiro<br>Federal University of Science and Innovation of Rio de Janeiro</i></p>
   {section("Professional", data["professional"])}
   {section("Contact &amp; Social", data["social"])}
   <footer>2026 © Diego Carvalho</footer>
