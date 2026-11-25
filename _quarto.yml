@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Diego Carvalho, D.Sc."
+  favicon: avatar.jpg
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    page-layout: custom
+    toc: false
+    include-in-header:
+      text: |
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Diego Carvalho, D.Sc.">
+        <meta property="og:image" content="avatar.jpg">
